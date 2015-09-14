@@ -14,7 +14,7 @@ $(function ($) {
         $(ids).each(function (i) {
             $('#' + ids[i]).removeClass("assassin red blue civilian").addClass(map[colors[i]]);
         });
-        $('div.startplayer').removeClass("red blue").addClass(dblagent[0]);
+        $('div.startplayer').removeClass("red blue civilian").addClass(dblagent[0]);
     });
 
     $.shuffle = function (ids) {
