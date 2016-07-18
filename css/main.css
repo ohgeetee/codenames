@@ -19,6 +19,13 @@
         border-radius: 2px;
         font-size: 0.9em;
         background-color: #fff;
+        color: #acacac;
+    }
+    .button:hover {
+        cursor: pointer;
+    }
+    .button.active {
+        background-color: #fff;
         color: #646464;
     }
     .button > paper-ripple {
